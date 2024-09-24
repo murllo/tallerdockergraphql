@@ -15,10 +15,12 @@ const resolvers = {
     hello: (_, { message }) => {
         return `¡Hola, ${message}! Un saludo por parte del profe `;
       },
-    helloStvn: (_, { message }) => {
-        return `¡Hola, ${message}! Un saludo por parte de Steven `;
+    helloJuanValencia: (_, { message }) => {
+        return `¡Hola, ${message}! Un saludo por parte de Juan Camilo `;
       },
-      
+    helloStvn: (_, { message }) => {
+      return `¡Hola, ${message}! Un saludo por parte de Steven Murillo`;
+    },
   },
 };
 
